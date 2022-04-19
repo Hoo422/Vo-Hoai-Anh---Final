@@ -1,0 +1,113 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Dosis:wght@300;400;600&family=Lato&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;1,200;1,300;1,400;1,500;1,600;1,800&display=swap');
+</style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* reset css */
+.container-fluid{
+    width: 100%;
+}
+body{
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
+    line-height: 28.8px;
+    color: #131313;
+}
+.container-lg{
+    width: 1500px;
+    margin: 0 auto;
+}
+.container-ng{
+    width: 1072px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: #131313;
+}
+li{
+    list-style: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.row>[class*="col-"]{
+    padding: 12px;
+}
+/* Flex */
+.justify-between{
+    justify-content: space-between;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.justify-start{
+    justify-content: flex-start;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-end{
+    justify-content: flex-end;
+}
+.align-item-star{
+    align-items: flex-start;
+}
+.align-item-center{
+    align-items: center;
+}
+.align-item-end{
+    align-items: flex-end;
+}
+.align-self-start{
+    align-self: flex-start;
+}
+.align-self-center{
+    align-self: center;
+}
+.align-self-end{
+    align-self: flex-end;
+}
+.w-100{
+    width: 100%;
+}
+.col-1{
+    width: 8.33%;
+}
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.33%;
+}
+.col-5{
+    width: 41.66%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.33%;
+}
+.col-8{
+    width: 66.66%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.33%;
+}
+.col-11{
+    width: 91.66%;
+}
+.col-12{
+    width: 100%;
+}
